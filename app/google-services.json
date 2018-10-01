@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "289620946992",
+    "project_id": "placefinder-82fe2"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289620946992:android:c692e07aebc575e0",
+        "android_client_info": {
+          "package_name": "com.app.placefinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289620946992-a6f8jjcemqibi3lsbhmdje5aumu6hqks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8qym3iyiKAZ03oASoasul3xkwSrqW5u0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289620946992:android:e71c3f4e3d373dd4",
+        "android_client_info": {
+          "package_name": "com.app.placefinderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289620946992-n533mopsp83jolv7q9j4k5pd7gqevias.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.placefinderapp",
+            "certificate_hash": "f55dbbb86d4c6be6e31350bf0da944bb35e8dbb3"
+          }
+        },
+        {
+          "client_id": "289620946992-a6f8jjcemqibi3lsbhmdje5aumu6hqks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8qym3iyiKAZ03oASoasul3xkwSrqW5u0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

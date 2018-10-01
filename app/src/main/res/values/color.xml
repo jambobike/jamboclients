@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="m_tab_clr">#FFB128</color>
+    <color name="m_tab_select_accent_clr">#f8ff4081</color>
+    <color name="m_color_primary_dark">#CC8E20</color>
+    <color name="app_background">#F4F4F4</color>
+    <color name="yellow">#FFC33C</color>
+    <color name="text_black">#545454</color>
+    <color name="text_white">#ffffff</color>
+    <color name="divider">#A4A4A4</color>
+    <color name="text_blue">#014c94</color>
+    <color name="text_lightblck">#848484</color>
+    <color name="detatl_blue1">#006ED6</color>
+    <color name="detatl_blue2">#0163BF</color>
+    <color name="detatl_blue3">#0156A7</color>
+    <color name="detatl_blue4">#014C94</color>
+    <color name="loginbtn_bgfb">#3C66C4</color>
+    <color name="loginbtn_bggp">#CF4332</color>
+
+</resources>

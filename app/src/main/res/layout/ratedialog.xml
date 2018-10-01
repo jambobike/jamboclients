@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:background="@drawable/rate_corner" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text=""
+            android:visibility="gone"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/text_blue"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/textVieww"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="RATING"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:background="@drawable/rateyello_corner"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/text_blue"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/text_white"
+             android:progressDrawable="@drawable/custom_ratingbar"
+            android:stepSize="1" />
+        <TextView
+            android:id="@+id/textViewwmsg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="Thanks For Rating"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/text_white"
+            android:gravity="center"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+             android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rateyello_corner"
+            android:text="OK"
+            android:textSize="20dp"
+            android:textColor="@color/text_blue" />
+    </LinearLayout>
+
+</RelativeLayout>

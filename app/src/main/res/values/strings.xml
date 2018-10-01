@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JamboBike</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="watch_video">Video</string>
+    <string name="fav">Favorite</string>
+    <string name="map">Map</string>
+    <string name="share">Share</string>
+    <string name="no_fav">No Favorite Found</string>
+    <string name="myfav">My Favorites</string>
+    <string name="about">About Us</string>
+    <string name="facebook_app_id">853311684821090</string>
+    <string name="version_name">Version : 1.0</string>
+    <string name="loginfb">Sign in with Facebook</string>
+    <string name="logingoogle">Sign in with Goolge+</string>
+
+    <!-- connection message -->
+    <string name="conne_msg1">No Network Connection!!!</string>
+    <string name="conne_msg2">Please connect to working Internet connection</string>
+     <string name="nodata">No Data Found</string>
+
+    <!-- admob id -->
+    <string name="admob_publisher_id">ca-app-pub-8356404931736973/2445842792</string> <!-- your admob id -->
+    <string name="admob_intertestial_id">ca-app-pub-8356404931736973/3922575991</string> <!-- your admob intertestal ad id -->
+
+    <!-- youtube -->
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="youtube_api_key">AIzaSyAYJwy6nzCFqgr5LtihRI3YuVBb_34aprw</string>
+
+</resources>

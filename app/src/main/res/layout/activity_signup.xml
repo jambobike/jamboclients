@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/m_tab_clr"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/login_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/imageView10" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/imageView10">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <EditText
+                android:id="@+id/edt_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="15dp"
+                android:background="@drawable/login_corner"
+                android:drawableLeft="@drawable/login_firstname"
+                android:textColorHint="@color/text_white"
+                android:textCursorDrawable="@drawable/cursor"
+                android:hint="Name"
+                android:textColor="@color/text_white"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_corner"
+                android:drawableLeft="@drawable/login_email"
+                android:textColorHint="@color/text_white"
+                android:textCursorDrawable="@drawable/cursor"
+                android:drawablePadding="15dp"
+                android:hint="Email"
+                android:textColor="@color/text_white"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_corner"
+                android:drawableLeft="@drawable/login_password"
+                android:textColorHint="@color/text_white"
+                android:textCursorDrawable="@drawable/cursor"
+                android:drawablePadding="15dp"
+                android:hint="Password"
+                android:textColor="@color/text_white"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/edt_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_corner"
+                android:drawableLeft="@drawable/ic_phone"
+                android:textColorHint="@color/text_white"
+                android:textCursorDrawable="@drawable/cursor"
+                android:drawablePadding="15dp"
+                android:hint="Mobile Number"
+                android:textColor="@color/text_white"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button"
+                android:background="@drawable/subbtn_corner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/text_white"
+                android:text="REGISTER" />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
