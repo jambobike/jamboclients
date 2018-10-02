@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="m_tab_clr">#FFB128</color>
+    <color name="m_tab_clr">#00ff40b3</color>
     <color name="m_tab_select_accent_clr">#f8ff4081</color>
     <color name="m_color_primary_dark">#CC8E20</color>
     <color name="app_background">#F4F4F4</color>
