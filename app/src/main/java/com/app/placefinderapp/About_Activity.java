@@ -58,7 +58,6 @@ public class About_Activity  extends ActionBarActivity {
 		txtemai=(TextView)findViewById(R.id.textView_emailad);
 		txttit=(TextView)findViewById(R.id.textView_name);
 		txtweb=(TextView)findViewById(R.id.textView_web);
-		imglogo=(ImageView)findViewById(R.id.imageView_logo);
 		listabout=new ArrayList<ItemAbout>();
 
 		if (JsonUtils.isNetworkAvailable(About_Activity.this)) {
